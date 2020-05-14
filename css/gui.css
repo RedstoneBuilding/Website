@@ -1,0 +1,38 @@
+.button_transparent:focus{
+	outline:none;
+	padding:0;
+}
+.button_transparent{
+  border: none;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 2px;
+  border-width: thin;
+  transition: 1s;
+}
+.input_box:focus{
+  outline:none;
+  padding:0;
+  border-bottom: 0.6px solid black;
+}
+.input_box{
+  position: relative;
+  border: none;
+  transition: 1s;
+  background-color: transparent;
+}
+.fp-viewing-secondPage .glow {
+  color: #fff;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #39FF14, 0 0 40px #39FF14, 0 0 50px #39FF14, 0 0 60px #39FF14, 0 0 70px #39FF14;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #4eff2e, 0 0 40px #4eff2e, 0 0 50px #4eff2e, 0 0 60px #4eff2e, 0 0 70px #4eff2e, 0 0 80px #4eff2e;
+  }
+}
